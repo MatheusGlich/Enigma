@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maquina">
+        <h1>Enigma</h1>
+        <p class="dica">Clique nas teclas ou use o teclado do conputador.</p>
+
+        <div class="janelas">
+            <input type="text" id="j0" maxlength="1" value="A"/>
+            <input type="text" id="j1" maxlength="1" value="A"/>
+            <input type="text" id="j2" maxlength="1" value="A"/>
+        </div>
+        <div id="lampadas"></div>
+        <div id="teclado"></div>
+
+        <p class="rotulo">Entrada (o que você digitou)</p>
+        <p class="rotulo">Saida (as lampadas que acendem)</p>
+        <p class="rotulo">CAMINHO DA ULTIMA LETRA</p>
+        <div class="linha" id="caminho"></div>
+
+        <button class="acao" id="btnReiniciar">Reiniciar Rotores e Mensagens</button>
+
+    </div>
+</body>
+</html>
